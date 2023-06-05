@@ -41,24 +41,16 @@ df2 = pd.read_csv(args.input2)
 
 # Rename columns in df2
 df2 = df2.rename(columns={'material_id': 'mpid'}) 
-# df2 = df2.rename(columns={'pretty_formula': 'formula'}) 
 
 # Merge the dataframes
 merged_data = pd.merge(df1, df2, on="mpid")
-# print(merged_data.head())
 # Select desired columns
 submerged_data = merged_data[["mpid", "pretty_formula", property]]
 
-# # Rename columns in submerged_data
-# submerged_data = submerged_data.rename(columns={'formula': 'composition'})
 
-# # Group by composition and find minimum energy
-# grouped = submerged_data.groupby('composition', as_index=False)
-# min_energy = grouped.apply(lambda x: x.loc[x['formation_energy_per_atom'].idxmin()])
 min_energy = submerged_data
 
 # Save the resulting dataframe to the output file
-# min_energy.to_csv(args.output, index=False)
 train_data, test_data = train_test_split(min_energy, test_size=testset_ratio, random_state=42)
 
 # Save the training set to a CSV file
