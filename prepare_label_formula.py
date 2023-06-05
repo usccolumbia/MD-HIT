@@ -54,7 +54,6 @@ grouped = submerged_data.groupby('composition', as_index=False)
 min_energy = grouped.apply(lambda x: x.loc[x[property].idxmin()])
 
 # Save the resulting dataframe to the output file
-# min_energy.to_csv(args.output, index=False)
 train_data, test_data = train_test_split(min_energy, test_size=testset_ratio, random_state=42)
 
 # Save the training set to a CSV file
