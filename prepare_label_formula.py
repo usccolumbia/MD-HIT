@@ -4,6 +4,7 @@
 *          MD-HIT-formula: prepare_label_formula             *
 *                       Dr. Qin Li & Jianjun Hu              *
 *    Guizhou University of Finance and Economics, 2023.5     *
+*            University of South Carolina                    *
 **************************************************************
 * function: use selected formulas of non-redundant set to get*
 *           their property values such as formation energy   *
