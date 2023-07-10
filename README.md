@@ -5,9 +5,11 @@ It can potentially improve the model performance on minority/OOD materials and p
 
 Developed by Dr. Jianjun Hu, Nihang Fu of University of South Carolina and Qin Li from Guizhou University of Finance and Economics
 
+```
 Citation:
+Q.Li, N.Fu, S.Omee, J.Hu, MD-HIT: MACHINE LEARNING FOR MATERIALS PROPERTY PREDICTION WITH DATASET REDUNDANCY CONTROL. Arxiv 2023.6
 
-
+```
 
 # How to use MD-HIT
 
