@@ -28,7 +28,7 @@ python get_struct_feature_parallel.py --cif_folder mycifs_folder --feature XRD -
 python get_struct_feature_parallel.py --cif_folder mycifs_folder --feature OFM --output_file dataset_OFM_features.csv --np 10
 
 ```
-These calculations may take a long time for big datasets. So be patient.
+These calculations may take a long time for big datasets. So be patient. You can download pre-calculated features from https://doi.org/10.6084/m9.figshare.23651568
 
 Step 2: generate non-redundant dataset using different thresholds
 
