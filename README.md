@@ -5,4 +5,14 @@ It can potentially improve the model performance on minority/OOD materials and p
 
 Developed by Dr. Jianjun Hu, Nihang Fu of University of South Carolina and Qin Li from Guizhou University of Finance and Economics
 
+Citation:
+
+
+
+# How to use MD-HIT
+
+## Generating composition non-redundant datasets
+
+
+## Generating structure non-redundant datasets
 
